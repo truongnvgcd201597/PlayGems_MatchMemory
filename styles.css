@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px auto;
+}
+h3{
+    font-size: 1.5rem;
+    color: #333;
+    margin: 25px 0 0 0;
+}
+#grid{
+    /* make align center */
+    display: grid;
+    grid-template-columns: repeat(4, 0fr);
+}
